@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_white"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/user_white"
+            android:title="About Me" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/address_card_white"
+            android:title="Contact Me" />
+        <item
+            android:id="@+id/nav_skills"
+            android:icon="@drawable/brain_white"
+            android:title="My Skills" />
+        <item
+            android:id="@+id/nav_projects"
+            android:icon="@drawable/puzzle_piece"
+            android:title="My Projects" />
+    </group>
+
+    <item android:title="Sharing is Caring">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share_alt_square_white"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/send_button"
+                android:title="Send" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/star_white"
+                android:title="Rate Me" />
+        </menu>
+    </item>
+
+</menu>
