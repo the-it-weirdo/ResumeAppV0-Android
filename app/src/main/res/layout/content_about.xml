@@ -12,11 +12,15 @@
         android:id="@+id/imageView2"
         android:layout_width="0dp"
         android:layout_height="149dp"
+        android:layout_marginBottom="8dp"
         android:contentDescription="@string/coverDesc"
         android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/cover" />
 
     <ImageView
@@ -51,7 +55,7 @@
         android:layout_marginRight="383dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintGuide_percent="0.55"
+        app:layout_constraintGuide_percent="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -220,7 +224,7 @@
         android:layout_marginRight="383dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintGuide_percent="0.70"
+        app:layout_constraintGuide_percent="0.5422222"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
